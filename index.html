@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOD NASA</title>
+</head>
+<body>
+    <header>
+        <h1>APOD NASA</h1>
+    </header>
+    <main>
+        <div id = "div_calendar">
+            <input type="date" name= "Date" id="calendar">
+            <input type="submit" value="enviar" id = "submit">
+        </div>
+        <div id = "request_body">
+            <p id="date_chose"></p>
+            <h2 id="picture_title">Picture of the Day</h2>
+            <img id="picture" src="" alt=""">
+            <p id="explanation"></p>
+        </div>
+
+    </main>
+    
+</body>
+
+<script src="model_apod_nasa.js"></script>
+<script src="view_apod_nasa.js"></script>
+<script src="controller_apod_nasa.js"></script>
+<script src="index_apod_nasa.js"></script>
+</html>
